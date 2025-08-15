@@ -54,8 +54,8 @@ def generate_report(path):
 
     timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
 
-    with open("report.txt", "w") as file:
-        file.write(f"Disk Usage Report\n")
+    with open("report.txt", "a") as file:
+        file.write(f"=== Disk Usage Report ===\n")
         file.write(f"Generated at: {timestamp}\n")
         file.write(f"Path: {path}\n")
         file.write(f"Total space: {total_gb} GB\n")
