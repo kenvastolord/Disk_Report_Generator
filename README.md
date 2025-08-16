@@ -1,6 +1,6 @@
 # 🧮 Disk Usage Report Generator
 
-A simple Python script to scan disk or partition usage and generate a human-readable report saved to a text file.  
+A simple Python script to scan disk or partition usage and generate a report saved to a text file.  
 Designed as a beginner-friendly project using only Python's standard libraries: `os`, `platform`, `shutil`, and `time`.
 
 ---
